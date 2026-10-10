@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="jes79 — Unity Environment · Technical Art · AI-assisted Workflow"/>
+<img src="./assets/header.svg" width="100%" alt="jes79 — AI Vibe Coding · Game Engines · Technical Art"/>
 
 <a href="https://github.com/jes79">
-  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+KR&weight=600&size=22&duration=3000&pause=800&color=B98CFF&center=true&vCenter=true&width=640&lines=Unity+%ED%99%98%EA%B2%BD+%EC%A0%9C%EC%9E%91+%26+%ED%85%8C%ED%81%AC%EB%8B%88%EC%BB%AC+%EC%95%84%ED%8A%B8;%EC%85%B0%EC%9D%B4%EB%8D%94+%2F+UI+%EC%9D%B4%ED%8E%99%ED%8A%B8+%EC%8B%A4%ED%97%98%EC%8B%A4;AI+%EB%B3%B4%EC%A1%B0+%EA%B0%9C%EB%B0%9C+%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0+%EC%97%B0%EA%B5%AC;%ED%95%99%EC%8A%B5+%EA%B3%BC%EC%A0%95%EC%9D%B4+%EA%B3%A7+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%EA%B0%80+%EB%90%98%EB%8F%84%EB%A1%9D" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+KR&weight=600&size=22&duration=3000&pause=800&color=B98CFF&center=true&vCenter=true&width=640&lines=AI%EC%99%80+%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94+%EB%B0%94%EC%9D%B4%EB%B8%8C+%EC%BD%94%EB%94%A9+%EA%B0%95%EC%82%AC;Unity+%C2%B7+Unreal%2C+%EC%97%94%EC%A7%84%EC%9D%84+%EA%B0%80%EB%A6%AC%EC%A7%80+%EC%95%8A%EB%8A%94+%EA%B0%9C%EB%B0%9C;%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EB%A1%9C+%EC%BD%94%EB%93%9C%EB%B6%80%ED%84%B0+3D+%EC%97%90%EC%85%8B%EA%B9%8C%EC%A7%80;%ED%95%99%EC%8A%B5+%EA%B3%BC%EC%A0%95%EC%9D%B4+%EA%B3%A7+%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%EA%B0%80+%EB%90%98%EB%8F%84%EB%A1%9D" alt="Typing SVG"/>
 </a>
 
 <p>
@@ -17,38 +17,63 @@
 ## 👋 About Me
 
 ```csharp
-public class Jes79 : MonoBehaviour
+public class Jes79 : IVibeCoder
 {
-    string   role      = "Unity 게임 개발 강사 · 테크니컬 아티스트";
-    string[] focus     = { "환경 제작", "셰이더 & UI 이펙트", "AI 보조 워크플로우" };
-    string   philosophy = "학습 과정과 결과물이 함께 남는 개발 문화";
+    string   role    = "AI 바이브 코딩 강사 · 게임 엔진 테크니컬 아티스트";
+    string[] engines = { "Unity", "Unreal Engine" };
+    string[] aiTools = { "Claude Code", "VARCO 3D" };
+    string   motto   = "엔진은 도구일 뿐, 아이디어는 AI와 함께 현실로";
 
-    void Update() => Learn().Build().Document().Share();
+    void Update() => Imagine().Prompt().Generate().Review().Ship();
 }
 ```
 
-게임 환경 제작, 포트폴리오 구성, GitHub 기반 작업 기록을 연결해 **배운 것이 그대로 결과물로 남는 흐름**을 만들고 있습니다.
+특정 엔진에 묶이지 않고, **AI와 대화하며 게임을 만드는 바이브 코딩**을 가르칩니다.
+코드는 AI와 함께 쓰고, 3D 에셋은 AI로 생성하고, 사람은 **기획 · 판단 · 완성도**에 집중하는 흐름을 연구합니다.
+
+<br/>
+
+## ⚡ Vibe Coding Workflow
+
+<p align="center">
+  <img src="https://img.shields.io/badge/💡_Idea-1e1b3a?style=for-the-badge"/>
+  ➜
+  <img src="https://img.shields.io/badge/💬_Prompt-3b2a6b?style=for-the-badge"/>
+  ➜
+  <img src="https://img.shields.io/badge/🤖_AI_Generate-6a3fb5?style=for-the-badge"/>
+  ➜
+  <img src="https://img.shields.io/badge/🎮_Engine_Integrate-b05cc9?style=for-the-badge"/>
+  ➜
+  <img src="https://img.shields.io/badge/🚀_Review_&_Ship-e86ab8?style=for-the-badge"/>
+</p>
+
+| 단계 | 하는 일 | 도구 |
+|:---:|---|---|
+| 💬 **Prompt** | 만들고 싶은 기능과 장면을 말로 설계 | Claude Code |
+| 🤖 **Generate** | 게임 코드 · 셰이더 · 3D 모델 생성 | Claude Code · VARCO 3D |
+| 🎮 **Integrate** | 엔진에 붙이고 플레이 가능한 형태로 조립 | Unity · Unreal Engine |
+| 🔍 **Review** | 결과를 읽고, 고치고, 기록으로 남기기 | Git / GitHub · Notion |
 
 <br/>
 
 ## 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=unity,cs,blender,git,github,vscode,html,css&perline=8" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=unity,unreal,cs,cpp,blender,git,github,vscode&perline=8" alt="Tech Stack"/>
 </p>
 
 <table align="center">
   <tr>
-    <td align="center"><b>🎮 Engine</b></td>
-    <td>Unity 6 · URP · Shader Graph · HLSL · uGUI · DOTween</td>
+    <td align="center"><b>🤖 AI Tools</b></td>
+    <td>Claude Code (바이브 코딩) · VARCO 3D (텍스트/이미지 → 3D 모델)</td>
   </tr>
   <tr>
-    <td align="center"><b>🏔 Environment</b></td>
-    <td>Blender · 3D Environment Art Workflow · Lighting & Post-processing</td>
+    <td align="center"><b>🎮 Game Engine</b></td>
+    <td>Unity 6 (URP · Shader Graph · uGUI · DOTween) · Unreal Engine</td>
   </tr>
   <tr>
-    <td align="center"><b>🤖 AI-assisted</b></td>
-    <td>레퍼런스 정리 · 기획/문서화 보조 · README & 포트폴리오 구조화</td>
+    <td align="center"><b>🏔 3D / Tech Art</b></td>
+    <td>Blender · 환경 아트 워크플로우 · 셰이더 & UI 이펙트 · 라이팅 / 포스트 프로세싱</td>
   </tr>
   <tr>
     <td align="center"><b>🌐 Workflow</b></td>
@@ -127,9 +152,26 @@ public class Jes79 : MonoBehaviour
 
 <br/>
 
-## 🧭 수업에서 다루는 GitHub 관리 방식
+## 🧭 수업에서 다루는 것
 
-> GitHub를 단순 코드 저장소가 아니라 **포트폴리오 Overview**로 쓰는 법을 안내합니다.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🤖 AI 바이브 코딩</h4>
+      AI와 대화하며 기획부터 구현까지 진행하고, 생성된 코드를 읽고 고치는 힘 기르기
+    </td>
+    <td width="33%" valign="top">
+      <h4>🎮 엔진에 구애받지 않는 개발</h4>
+      Unity든 Unreal이든, AI를 파트너 삼아 원하는 엔진으로 플레이 가능한 결과물 만들기
+    </td>
+    <td width="33%" valign="top">
+      <h4>🧊 AI 3D 에셋 제작</h4>
+      VARCO 3D 같은 생성형 도구로 모델을 만들고 엔진 씬에 바로 배치하기
+    </td>
+  </tr>
+</table>
+
+#### 📂 GitHub를 포트폴리오 Overview로 쓰는 법
 
 | 단계 | 내용 |
 |:---:|---|

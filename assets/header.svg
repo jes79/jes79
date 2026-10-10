@@ -65,7 +65,7 @@
     <circle cx="960" cy="52" r="4"/><circle cx="1068" cy="160" r="4"/>
     <circle cx="960" cy="268" r="4"/><circle cx="852" cy="160" r="4"/>
   </g>
-  <text x="960" y="172" text-anchor="middle" class="mono pulse" font-size="34" font-weight="700" fill="#ffffff">{ }</text>
+  <text x="960" y="172" text-anchor="middle" class="mono pulse" font-size="34" font-weight="700" fill="#ffffff">AI</text>
 
   <!-- sparks -->
   <g fill="#b98cff">
@@ -79,13 +79,13 @@
 
   <!-- text -->
   <g class="fade">
-    <text x="70" y="96" class="mono" font-size="18" fill="#7cf3ff" letter-spacing="3">&gt; HELLO, WORLD_</text>
+    <text x="70" y="96" class="mono" font-size="18" fill="#7cf3ff" letter-spacing="3">&gt; PROMPT: BUILD_A_GAME_</text>
   </g>
   <g class="fade2">
     <text x="66" y="178" font-size="86" font-weight="800" fill="url(#title)" letter-spacing="2">jes79</text>
   </g>
   <g class="fade3">
-    <text x="70" y="222" font-size="24" font-weight="600" fill="#e8e6ff">Unity Environment · Technical Art · AI-assisted Workflow</text>
-    <text x="70" y="258" class="mono" font-size="15" fill="#a9a3d6">Game Dev Instructor  //  Shaders  //  UI Effects  //  Pipelines</text>
+    <text x="70" y="222" font-size="24" font-weight="600" fill="#e8e6ff">AI Vibe Coding · Game Engines · Technical Art</text>
+    <text x="70" y="258" class="mono" font-size="15" fill="#a9a3d6">Vibe Coding Instructor  //  Unity · Unreal  //  AI 3D  //  Shaders</text>
   </g>
 </svg>
